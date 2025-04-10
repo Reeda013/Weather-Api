@@ -10,6 +10,8 @@ setup(
             "weather-cli = weather_cli.cli:main"
         ]
                   },
+    tests_require = ["unittest"],
+    test_suite = "Tests",
     description="A CLI tools to check the weather",
     long_description= open("README.md").read(),
     long_description_content_type='text/markdown',
