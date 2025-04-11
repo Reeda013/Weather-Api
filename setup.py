@@ -7,7 +7,7 @@ setup(
     install_requires = ["requests"],
     entry_points= {
         "console_scripts": [
-            'weather-cli = weatherCLI.CLI:main'
+            'weather-cli = WeatherCLI.CLI:main'
             ]
                 },
     tests_require = ["unittest"],

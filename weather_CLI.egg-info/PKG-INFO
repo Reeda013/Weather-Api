@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: weather_CLI
+Version: 0.1
+Summary: A CLI tools to check the weather
+Home-page: https://github.com/Reeda013/Weather-Api
+Author: Reeda031
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independant
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+# Weather CLI
+A simple CLI tool to check the weather anywhere from the comfort of your terminal.
+solution for https://roadmap.sh/projects/weather-api-wrapper-service
+
+## Installation
+To install the package:
+```bash
+pip install git+https://github.com/Reeda013/weather-cli.git
+```
+## Usage
+```bash
+#To check the weather
+weather-cli <city-name>
+
+#To save said weather data into a file
+weather-cli <city-name> --save
+```
+
+## License
+Licensed by MIT

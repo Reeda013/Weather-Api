@@ -1,6 +1,6 @@
 import argparse
 import json
-from weather import get_coordinates, get_weather
+from WeatherCLI.weather import get_coordinates, get_weather
 
 def valid_city(city):
 
