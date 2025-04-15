@@ -1,4 +1,6 @@
-# Weather CLI
+# Weather A--
+
+# Cli version 
 A simple CLI tool to check the weather anywhere from the comfort of your terminal.
 solution for https://roadmap.sh/projects/weather-api-wrapper-service
 
@@ -15,6 +17,7 @@ weather-cli <city-name>
 #To save said weather data into a file
 weather-cli <city-name> --save
 ```
+#
 
 ## License
 Licensed by MIT
