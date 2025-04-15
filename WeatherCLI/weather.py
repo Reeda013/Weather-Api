@@ -2,7 +2,6 @@
 
 import requests 
 import argparse
-import json
 
 def get_weather(lat, lon):
     #Connect to the weather api
